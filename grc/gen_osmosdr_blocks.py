@@ -176,7 +176,6 @@ documentation: |-
    * Fairwaves UmTRX through Fairwaves' fork of UHD
    * Red Pitaya SDR transceiver (http://bazaar.redpitaya.com)
    * FreeSRP through libfreesrp library
-   * Fresco Logic FL2000 USB-to-VGA dongles via osmo-fl2k
 
   By using the osmocom $sourk block you can take advantage of a common software api in your application(s) independent of the underlying radio hardware.
 
@@ -215,8 +214,6 @@ documentation: |-
     hackrf=0[,buffers=32][,bias=0|1][,bias_tx=0|1]
     bladerf=0[,tamer=internal|external|external_1pps][,smb=25e6]
     uhd[,serial=...][,lo_offset=0][,mcr=52e6][,nchan=2][,subdev='\\\\'B:0 A:0\\\\''] ...
-    fl2k=devnum ...
-    fl2k=devnum,freq=dontcare,label='FL2K output'
 
   Num Channels:
   Selects the total number of channels in this multi-device configuration. Required when specifying multiple device arguments.
